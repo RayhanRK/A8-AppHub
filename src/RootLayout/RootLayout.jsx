@@ -1,23 +1,29 @@
-import React from 'react';
-import { Outlet } from 'react-router';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import React from "react";
+import { Outlet, useNavigation } from "react-router";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const RootLayout = () => {
-    return (
-        <div className="flex flex-col min-h-screen">
+  const navigation = useNavigation();
 
-            <header className="lg:px-8 py-2 md:px-4 px-2">
-                <Navbar/>
-            </header>
+  const isNavigate = Boolean(navigation.location);
 
-            <main  className="bg-[#E5E7EB] flex-1">
-                <Outlet/>
-            </main>
+  return (
+    <div className="flex flex-col min-h-screen">
+      <header className="lg:px-8 py-2 md:px-4 px-2">
+        <Navbar />
+      </header>
+              {/* bg-[#E5E7EB] */}
+      <div className="bg-gray-100 flex-1">
 
-            <Footer/>
-        </div>
-    );
+        { isNavigate && <p>Navigating..</p> }
+
+          <Outlet />
+      </div>
+
+      <Footer />
+    </div>
+  );
 };
 
 export default RootLayout;
