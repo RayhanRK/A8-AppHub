@@ -1,5 +1,5 @@
-import { BarChart } from "lucide-react";
-import { Bar, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+// import { BarChart } from "lucide-react";
+import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const RatingsChart = ({ ratings }) => {
   return (
@@ -17,13 +17,15 @@ const RatingsChart = ({ ratings }) => {
             bottom: 5,
           }}
           barSize={30}
-        >
+          >
+            
           <XAxis type="number" dataKey="count" />
           <YAxis type="category" dataKey="name" />
           <Tooltip />
           <Legend />
           <Bar dataKey="count" fill="#FF8811" background={{ fill: "#eee" }} />
         </BarChart>
+
       </ResponsiveContainer>
     </div>
   );

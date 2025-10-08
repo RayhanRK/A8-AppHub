@@ -1,5 +1,4 @@
 import Lottie from "lottie-react";
-import React from "react";
 import emptyLottie from "../Utility/emptyLottie.json";
 import { Link } from "react-router";
 
@@ -12,7 +11,7 @@ const NoAppFound = ({ search, setSearch }) => {
 
       <div className="flex flex-col gap-8 justify-center">
         <h2 className="text-center text-4xl text-gray-600 font-bold tracking-wider">
-          No Apps Found
+          Oops! No Apps Found in the Store.
         </h2>
 
         <Link

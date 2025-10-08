@@ -1,5 +1,4 @@
 import { Download } from 'lucide-react';
-import React from 'react';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import { Link } from 'react-router';
 import useApp from '../Hooks/useApp';

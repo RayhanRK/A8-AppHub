@@ -1,4 +1,3 @@
-import React from 'react';
 
 const HomeSkeleton = () => {
     return (
@@ -10,7 +9,7 @@ const HomeSkeleton = () => {
         <div className="bg-gray-200 w-24 h-10 skeleton "></div>
         <div className="bg-gray-200 w-24 h-10 skeleton "></div>
       </div>
-      <div className="bg-gray-200 h-96 mx-auto lg:w-8/12 w-11/12 skeleton mt-12 pt-12"></div>
+      <div className="bg-gray-200  w-11/12 skeleton h-96 mx-auto lg:w-8/12 mt-12 pt-12"></div>
     </div>
     );
 };
