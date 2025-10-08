@@ -1,14 +1,14 @@
 [
   {
     "image": "https://i.ibb.co.com/9m6C9c9q/img24.jpg",
-    "title": "Tripify",
-    "companyName": "TravelNest",
+    "title": "GitHub",
+    "companyName": "GitHub, Inc",
     "id": 1,
-    "description": "Tripify is an intelligent travel companion designed to make every journey effortless. From suggesting the best destinations based on your mood to automatically building itineraries, it handles everything with precision. Users can store boarding passes, track expenses, and even share live updates with friends. The smart assistant monitors weather, visa rules, and currency exchange to ensure a seamless trip. With personalized recommendations, offline maps, and a built-in travel journal, Tripify transforms each adventure into a beautifully organized experience worth remembering.",
+    "description": "GitHub is a platform for hosting and managing software projects using Git. It allows developers to track changes and collaborate on code efficiently. Supports both public open-source and private repositories for teams. Provides tools for version control, branching, and merging code. Facilitates issue tracking, pull requests, and code reviews seamlessly. Offers CI/CD integrations and project management features for workflows. Enables community contributions and sharing knowledge across projects. Trusted by millions of developers and organizations worldwide.",
     "size": 78,
     "reviews": 460,
     "ratingAvg": 4.6,
-    "downloads": 9.8,
+    "downloads": 29.8,
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 180 },
@@ -19,14 +19,14 @@
   },
   {
     "image": "https://i.ibb.co.com/yFjCGF6k/img16.jpg",
-    "title": "FitMate",
-    "companyName": "ActiveCore",
+    "title": "VsCode",
+    "companyName": "Microsoft",
     "id": 2,
-    "description": "FitMate is your AI-powered fitness coach that evolves with you. It tracks daily workouts, heart rate, and calorie intake while analyzing your progress using smart insights. With voice-guided training, customizable plans, and integrated meal suggestions, it helps users stay consistent and motivated. The app includes a streak tracker, progress graphs, and weekly reports for long-term fitness goals. Whether you’re building strength, losing weight, or improving stamina, FitMate adapts to your lifestyle and keeps you moving with purpose.",
+    "description": "VsCode is your AI-powered code editor that evolves with you. It helps you to code with  your desired language and frameworks while analyzing your progress using smart insights. With voice-guided training, customizable plans, and integrated meal suggestions, it helps users stay consistent and motivated. The app includes a streak tracker, progress graphs, and weekly reports for long-term fitness goals. Whether you’re building strength, losing weight, or improving stamina, FitMate adapts to your lifestyle and keeps you moving with purpose.",
     "size": 65,
     "reviews": 870,
     "ratingAvg": 4.5,
-    "downloads": 2,
+    "downloads": 22,
     "ratings": [
       { "name": "1 star", "count": 270 },
       { "name": "2 star", "count": 410 },
@@ -37,10 +37,10 @@
   },
   {
     "image": "https://i.ibb.co.com/RTb8bFPM/img1.jpg",
-    "title": "WeatherPro",
-    "companyName": "ClimateIQ",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
     "id": 3,
-    "description": "WeatherPro delivers precision forecasts and real-time alerts with elegant clarity. Using satellite imagery and hyperlocal weather tracking, it ensures you’re never caught off guard. The app features a 15-day forecast, radar animations, air quality index, and storm tracking tools. You can customize widgets, set location-based alerts, and receive smart notifications for outdoor events. Whether you're planning a hike or checking for rain before your commute, WeatherPro becomes your reliable weather companion every day.",
+    "description": "Slack is a messaging and collaboration platform designed for teams and organizations. It provides channels for topic-based conversations, direct messaging, and group discussions to streamline communication. Users can share files, integrate third-party apps, and use powerful search functionality to keep work organized. Slack supports notifications, reminders, and workflow automation to improve productivity. The platform is accessible on desktop, mobile, and web, ensuring team members stay connected anywhere. Slack also includes voice and video calls for real-time collaboration. Enterprise features offer advanced security, analytics, and administration controls. It has become a core tool for remote teams, project management, and professional collaboration worldwide.",
     "size": 40,
     "reviews": 250,
     "ratingAvg": 4.3,
@@ -55,14 +55,14 @@
   },
   {
     "image": "https://i.ibb.co.com/j9FvRCTL/img14.jpg",
-    "title": "PhotoCraft",
-    "companyName": "Pixel Dynamics",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
     "id": 4,
-    "description": "PhotoCraft redefines mobile photo editing with professional-grade precision and artistic flair. Users can apply cinematic filters, adjust lighting, and remove backgrounds with AI magic in seconds. The intuitive design allows seamless control over layers, tone curves, and gradients. It also supports RAW editing, face retouching, and sky replacement powered by deep learning. Whether you’re a beginner experimenting with filters or a creator refining compositions, PhotoCraft gives you every tool to tell your story visually.",
+    "description": "ChatGPT is an advanced conversational AI developed by OpenAI, designed to interact naturally with humans. It can answer questions, assist with creative writing, generate code snippets, and provide detailed explanations on a wide range of topics. With context awareness, ChatGPT remembers previous interactions in a conversation to provide coherent responses. It’s widely used for learning, productivity, brainstorming, and entertainment. ChatGPT supports multiple languages and adapts to user instructions for tailored outputs. Integrated into applications, websites, and tools, it enhances digital workflows and communication. It’s constantly updated with new knowledge and improved understanding capabilities. OpenAI ensures safe and ethical usage, making ChatGPT a reliable AI companion for personal and professional use.",
     "size": 80,
     "reviews": 540,
     "ratingAvg": 4.6,
-    "downloads": 1.1,
+    "downloads": 91.1,
     "ratings": [
       { "name": "1 star", "count": 150 },
       { "name": "2 star", "count": 230 },
@@ -73,10 +73,10 @@
   },
   {
     "image": "https://i.ibb.co.com/KctJs45j/app1.jpg",
-    "title": "Bookly",
-    "companyName": "ReadZone",
+    "title": "WeChat",
+    "companyName": "Tencent",
     "id": 5,
-    "description": "Bookly is the ultimate digital reading companion for modern readers. It keeps your eBooks organized, tracks reading progress, and suggests titles that match your mood or pace. With features like ambient background sounds, dark mode, and reading goals, it makes long reading sessions relaxing and productive. You can create annotations, highlight quotes, and sync your library across all devices. Bookly transforms the habit of reading into a journey of discovery, one page at a time.",
+    "description": "WeChat is a multi-purpose messaging, social media, and mobile payment app developed by Tencent. It allows users to send text, voice, and video messages, share multimedia content, and make group chats. The platform integrates Moments, mini-programs, and official accounts to create a rich social and business ecosystem. WeChat Pay enables seamless digital payments, transfers, and in-app purchases. Users can access location sharing, games, and various utility services, all within the app. Security and privacy features include message encryption and optional verification. It supports cross-platform syncing across mobile and desktop devices. WeChat is widely used in China and globally for both personal communication and business operations.",
     "size": 48,
     "reviews": 350,
     "ratingAvg": 4.8,
@@ -109,10 +109,10 @@
   },
   {
     "image": "https://i.ibb.co.com/nNncf6Xt/img7.png",
-    "title": "StreamBox",
-    "companyName": "VisionPlay",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
     "id": 7,
-    "description": "StreamBox gives you an immersive entertainment experience with unlimited movies, shows, and documentaries in HD. The app offers smart recommendations based on viewing habits and allows offline downloads with a single tap. With parental controls, multi-device sync, and ad-free playback, it’s designed for every kind of viewer. The elegant interface ensures smooth navigation, and the AI engine curates personalized playlists so you always find what you’ll love next.",
+    "description": "Telegram is a cloud-based messaging app that provides fast, secure, and versatile communication. Users can send text messages, voice notes, multimedia files, and make video or voice calls. It supports group chats, channels, and bots to enhance community engagement and productivity. Telegram emphasizes privacy with end-to-end encryption in secret chats and self-destructing messages. The platform allows file sharing up to 2GB and syncs across multiple devices. Telegram offers custom themes, stickers, and advanced search to personalize the user experience. Developers can build bots and integrations using the Telegram API. Its open API and speed make it popular for both personal and professional communication.",
     "size": 95,
     "reviews": 200,
     "ratingAvg": 4.8,
@@ -143,11 +143,67 @@
       { "name": "5 star", "count": 1830 }
     ]
   },
+
+ {
+    "image": "https://i.ibb.co.com/TD6Z2VXb/img9.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 9,
+    "description": "WhatsApp is a globally popular messaging app developed by Meta Platforms. It enables users to send text messages, voice messages, make voice and video calls, and share multimedia content. The app supports group chats, broadcast messages, and status updates to connect with friends and family. WhatsApp Web allows seamless cross-device access from desktops and laptops. End-to-end encryption ensures secure communication between users. The platform also supports document sharing, location sharing, and payments in select regions. With a simple and intuitive interface, WhatsApp continues to be a preferred app for personal and professional communication. Its continuous updates introduce features that enhance usability, security, and engagement.",
+    "size": 64,
+    "reviews": 780,
+    "ratingAvg": 4.6,
+    "downloads": 350,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 4580 }
+    ]
+  },
+{
+    "image": "https://i.ibb.co.com/KxdPLVP8/img21.jpg",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe Inc.",
+    "id": 10,
+   "description": "Adobe Lightroom is a powerful photo editing and management software developed by Adobe Inc. It allows photographers to organize, edit, and enhance images with professional-grade tools. The app supports RAW image processing, color correction, exposure adjustments, and advanced filters. Lightroom offers cloud storage and synchronization, enabling users to access and edit photos across multiple devices. Non-destructive editing ensures original files remain intact while changes are applied. With presets and AI-powered features, users can streamline workflows and achieve consistent results. Lightroom is widely used by both professional photographers and hobbyists for creative photo editing. Its intuitive interface combined with advanced capabilities makes it a leading tool in digital photography.",
+    "size": 90,
+    "reviews": 120,
+    "ratingAvg": 4.9,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7450 }
+    ]
+  },
+ {
+    "image": "https://i.ibb.co.com/Jw5bDJ7c/img20.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 11,
+    "description": "Discord is a communication platform designed for communities, gamers, and professional groups. It enables users to create servers with text, voice, and video channels, allowing seamless collaboration and interaction. The app supports direct messaging, screen sharing, and integration with third-party apps for enhanced functionality. Discord also offers moderation tools, roles, and permissions to manage large communities efficiently. With mobile, desktop, and web versions, users can stay connected anywhere. Nitro subscription unlocks additional features like higher-quality streaming and custom emojis. The platform emphasizes real-time communication, community building, and reliable voice chat. Discord has become a central hub for gaming communities, study groups, and professional teams worldwide.",
+    "size": 75,
+    "reviews": 890,
+    "ratingAvg": 4.8,
+    "downloads": 26,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+
   {
     "image": "https://i.ibb.co.com/bq1gBQw/img13.jpg",
     "title": "TaskFlow",
     "companyName": "ZenTech Solutions",
-    "id": 9,
+    "id": 12,
     "description": "TaskFlow is a modern productivity app designed to help individuals and teams stay focused. It combines task management, progress visualization, and AI-generated insights into one seamless experience. The clean dashboard allows quick project tracking, priority tagging, and team collaboration. Smart reminders and milestone tracking make it ideal for students and professionals alike. With TaskFlow, you don’t just manage tasks—you master your workflow effortlessly.",
     "size": 42,
     "reviews": 135,
