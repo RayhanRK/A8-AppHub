@@ -1,0 +1,164 @@
+[
+  {
+    "image": "https://i.ibb.co.com/9m6C9c9q/img24.jpg",
+    "title": "Tripify",
+    "companyName": "TravelNest",
+    "id": 1,
+    "description": "Tripify is an intelligent travel companion designed to make every journey effortless. From suggesting the best destinations based on your mood to automatically building itineraries, it handles everything with precision. Users can store boarding passes, track expenses, and even share live updates with friends. The smart assistant monitors weather, visa rules, and currency exchange to ensure a seamless trip. With personalized recommendations, offline maps, and a built-in travel journal, Tripify transforms each adventure into a beautifully organized experience worth remembering.",
+    "size": 78,
+    "reviews": 4600,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 440 },
+      { "name": "4 star", "count": 1380 },
+      { "name": "5 star", "count": 2480 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yFjCGF6k/img16.jpg",
+    "title": "FitMate",
+    "companyName": "ActiveCore",
+    "id": 2,
+    "description": "FitMate is your AI-powered fitness coach that evolves with you. It tracks daily workouts, heart rate, and calorie intake while analyzing your progress using smart insights. With voice-guided training, customizable plans, and integrated meal suggestions, it helps users stay consistent and motivated. The app includes a streak tracker, progress graphs, and weekly reports for long-term fitness goals. Whether you’re building strength, losing weight, or improving stamina, FitMate adapts to your lifestyle and keeps you moving with purpose.",
+    "size": 65,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2740 },
+      { "name": "5 star", "count": 4390 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RTb8bFPM/img1.jpg",
+    "title": "WeatherPro",
+    "companyName": "ClimateIQ",
+    "id": 3,
+    "description": "WeatherPro delivers precision forecasts and real-time alerts with elegant clarity. Using satellite imagery and hyperlocal weather tracking, it ensures you’re never caught off guard. The app features a 15-day forecast, radar animations, air quality index, and storm tracking tools. You can customize widgets, set location-based alerts, and receive smart notifications for outdoor events. Whether you're planning a hike or checking for rain before your commute, WeatherPro becomes your reliable weather companion every day.",
+    "size": 40,
+    "reviews": 2500,
+    "ratingAvg": 4.3,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 370 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9FvRCTL/img14.jpg",
+    "title": "PhotoCraft",
+    "companyName": "Pixel Dynamics",
+    "id": 4,
+    "description": "PhotoCraft redefines mobile photo editing with professional-grade precision and artistic flair. Users can apply cinematic filters, adjust lighting, and remove backgrounds with AI magic in seconds. The intuitive design allows seamless control over layers, tone curves, and gradients. It also supports RAW editing, face retouching, and sky replacement powered by deep learning. Whether you’re a beginner experimenting with filters or a creator refining compositions, PhotoCraft gives you every tool to tell your story visually.",
+    "size": 80,
+    "reviews": 5400,
+    "ratingAvg": 4.6,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 510 },
+      { "name": "4 star", "count": 1610 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KctJs45j/app1.jpg",
+    "title": "Bookly",
+    "companyName": "ReadZone",
+    "id": 5,
+    "description": "Bookly is the ultimate digital reading companion for modern readers. It keeps your eBooks organized, tracks reading progress, and suggests titles that match your mood or pace. With features like ambient background sounds, dark mode, and reading goals, it makes long reading sessions relaxing and productive. You can create annotations, highlight quotes, and sync your library across all devices. Bookly transforms the habit of reading into a journey of discovery, one page at a time.",
+    "size": 48,
+    "reviews": 3500,
+    "ratingAvg": 4.8,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 2360 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/n84QyxKf/img8.jpg",
+    "title": "DriveSafe",
+    "companyName": "AutoCore",
+    "id": 6,
+    "description": "DriveSafe is built for those who value safety and performance behind the wheel. Using advanced motion sensors and real-time analytics, it monitors driving behavior to reduce risks and improve habits. The app provides live road condition alerts, fuel efficiency reports, and route recommendations. Gamified challenges encourage safer driving while earning rewards for consistency. Whether you’re a daily commuter or road trip lover, DriveSafe ensures that every journey is smoother, smarter, and safer.",
+    "size": 70,
+    "reviews": 2300,
+    "ratingAvg": 4.2,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 710 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNncf6Xt/img7.png",
+    "title": "StreamBox",
+    "companyName": "VisionPlay",
+    "id": 7,
+    "description": "StreamBox gives you an immersive entertainment experience with unlimited movies, shows, and documentaries in HD. The app offers smart recommendations based on viewing habits and allows offline downloads with a single tap. With parental controls, multi-device sync, and ad-free playback, it’s designed for every kind of viewer. The elegant interface ensures smooth navigation, and the AI engine curates personalized playlists so you always find what you’ll love next.",
+    "size": 95,
+    "reviews": 20000,
+    "ratingAvg": 4.8,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 12800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LdgVvR4t/img11.jpg",
+    "title": "DocScan",
+    "companyName": "Scanify Tech",
+    "id": 8,
+    "description": "DocScan turns your phone into a portable scanner with extraordinary clarity. It lets you digitize notes, IDs, and receipts within seconds using automatic edge detection and AI enhancement. The OCR engine extracts text accurately for easy editing and sharing. Cloud integration ensures your documents stay safe and accessible anytime. Whether you're a student, business professional, or freelancer, DocScan simplifies paperwork and keeps your files organized efficiently.",
+    "size": 33,
+    "reviews": 4200,
+    "ratingAvg": 4.5,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 1410 },
+      { "name": "5 star", "count": 1830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bq1gBQw/img13.jpg",
+    "title": "TaskFlow",
+    "companyName": "ZenTech Solutions",
+    "id": 9,
+    "description": "TaskFlow is a modern productivity app designed to help individuals and teams stay focused. It combines task management, progress visualization, and AI-generated insights into one seamless experience. The clean dashboard allows quick project tracking, priority tagging, and team collaboration. Smart reminders and milestone tracking make it ideal for students and professionals alike. With TaskFlow, you don’t just manage tasks—you master your workflow effortlessly.",
+    "size": 42,
+    "reviews": 1345,
+    "ratingAvg": 4.4,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 555 }
+    ]
+  }
+]
