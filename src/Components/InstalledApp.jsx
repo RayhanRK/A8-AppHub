@@ -12,9 +12,9 @@ const InstalledApp = ({ insApp, setInstalledApp }) => {
 
     //functionality of ui update
     setInstalledApp(updatedList);
-    toast.error("Item deleted successfully!", {
+    toast.error("App uninstalled successfully!", {
       icon: <Trash2 color="#991B1B" />,
-      position: "bottom-right",
+      position: "top-right",
       theme: "light",
       style: {
         background: "#FECACA",
@@ -39,7 +39,7 @@ const InstalledApp = ({ insApp, setInstalledApp }) => {
 
         <div className="space-y-2">
           <h3 className="text-[#001931] font-semibold">{title}</h3>
-          
+
           <div className="flex items-center gap-3 text-gray-600">
             <div className="flex items-center gap-2">
               <img src={download} alt="" className="w-4 h-4" />

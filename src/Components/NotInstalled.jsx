@@ -14,3 +14,5 @@ const NotInstalled = () => {
 };
 
 export default NotInstalled;
+
+

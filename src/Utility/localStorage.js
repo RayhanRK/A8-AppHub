@@ -17,7 +17,7 @@ export const updateAppList = (app) => {
     if (isDuplicate) {
       toast.error(`Already Installed ${app.title}`, {
         theme: "dark",
-        position: "bottom-right",
+        position: "top-right",
       });
       return false; 
     }
@@ -26,7 +26,7 @@ export const updateAppList = (app) => {
     localStorage.setItem("appList", JSON.stringify(newAppList));
     toast.success(`You've Successfully Installed ${app.title}`, {
       theme: "light",
-      position: "bottom-right",
+      position: "top-right",
       style: {
         background: "#BBF7D0",
         color: "#166534",

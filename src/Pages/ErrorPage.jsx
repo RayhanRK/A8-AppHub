@@ -18,11 +18,15 @@ const ErrorPage = () => {
             <img src={errorImg} alt="404 error image" className="w-80" />
           </div>
 
-          <h2 className="text-center md:text-2xl text-xl text-gray-600 font-bold tracking-wider">
-            404: Page not found. It may have been deleted or moved. 
-            You can go back home or check out our Latest apps.
-
-          </h2>
+              <div className="text-center  text-gray-700 ">
+                <h1 className="font-bold text-2xl mb-2">
+                404: Page not found.  
+                </h1>
+                <p className=" md:text-lg">
+                It may have been deleted or removed.You can go back home or check out our Latest apps.
+                </p>
+              </div>
+              
           <div className="flex justify-center md:flex-row flex-col items-center gap-4">
             <Link to="/" className="showAll">
               Go Home
