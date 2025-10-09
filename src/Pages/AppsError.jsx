@@ -8,10 +8,15 @@ const AppsError = () => {
         <img src={appErrorImg} className="w-85" />
       </div>
 
-      <h2 className="text-center text-xl text-gray-600 font-semibold md:text-2xl ">
-        Oops! Looks like this page has disappeared for some reason. 
-        Don’t worry— you can return to the All Apps section and explore from there.
-      </h2>
+   
+      <div className="text-center text-xl text-gray-700  md:text-2xl ">
+        <h1 className="font-semibold">
+          Oops! App is Not found. 
+        </h1>
+        <p className="text-lg">
+          The App you are looking doesn't exist or removed. You can explore latest apps from Apps page.
+        </p>
+      </div>
 
       <div className="flex justify-center">
         <Link to='/apps' className="showAll">

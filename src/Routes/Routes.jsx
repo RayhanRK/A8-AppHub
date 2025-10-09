@@ -5,12 +5,15 @@ import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
 import Apps from "../Pages/Apps";
 import AppDetails from "../Components/AppDetails";
+import ErrorPage from "../Pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     // Component: RootLayout,
+    hydrateFallbackElement: <p>Loading....</p>,
+    errorElement: <ErrorPage />,
 
     children: [
       
