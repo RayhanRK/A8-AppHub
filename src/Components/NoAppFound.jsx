@@ -7,7 +7,7 @@ const NoAppFound = ({ search, setSearch }) => {
     <div className="flex flex-col items-center justify-center ">
       <div className="flex justify-center">
         <Lottie animationData={emptyLottie}
-          loop={true} className="md:w-80 h-80 sm:w-50 mt-[-20px]" />
+          loop={true} className="md:w-80 h-80 sm:w-50" />
       </div>
 
       <div className="flex flex-col gap-6 justify-center items-center">
