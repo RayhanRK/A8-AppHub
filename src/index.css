@@ -23,3 +23,12 @@
 .navlink {
   @apply flex gap-1 items-center pb-1 border-b-2 border-transparent hover:border-[#9b5de0] transition-colors duration-200 px-2;
 }
+.showAll {
+  @apply bg-gradient-to-r from-[#4C4CEA] to-[#9865F3] text-white w-48 py-2 rounded-md px-4 flex justify-center hover:scale-95 transition-all duration-600;
+}
+.btnIns {
+  @apply btn bg-[#00D390] rounded-md cursor-pointer text-lg text-white shadow-2xl hover:bg-white hover:text-[#00D390] hover:border-[#00D390] transition-all duration-300;
+}
+.btnUn {
+  @apply btn bg-[#00D390] rounded-md cursor-pointer text-white shadow-2xl hover:bg-white hover:text-[#00D390] hover:border-[#00D390] transition-all duration-300;
+}
