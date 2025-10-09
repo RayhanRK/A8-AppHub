@@ -15,10 +15,9 @@
   @apply bg-gradient-to-r from-[#4C4CEA] to-[#9865F3] text-white w-48 py-2 rounded-md px-4 flex justify-center hover:scale-95 transition-all duration-700;
 }
 
-/* a.active {
-  color: #9b5de0;
-  
-} */
+a.active {
+  color: #9b5de0;  
+}
 
 .navlink {
   @apply flex gap-1 items-center pb-1 border-b-2 border-transparent hover:border-[#9b5de0] transition-colors duration-200 px-2;
