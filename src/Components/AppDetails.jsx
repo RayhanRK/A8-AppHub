@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import useApp from '../Hooks/useApp';
 import { useParams } from 'react-router';
+import { useEffect, useState } from 'react';
 import AppDetailsLoad from './AppDetailsLoad';
 import ErrorPage from '../Pages/ErrorPage';
 import AppsError from '../Pages/AppsError';
@@ -9,54 +9,35 @@ import download from "../assets/icon-downloads.png";
 import review from "../assets/icon-review.png";
 import rating from "../assets/icon-ratings.png";
 
-import { toast, ToastContainer } from 'react-toastify';
 import RatingsChart from './RatingsChart';
+import {getAppFromLocalStorage, updateAppList,} from "../Utility/localStorage";
 
 const AppDetails = () => {
-    const [showInstall, setShowInstall] = useState(true); 
-    const { apps, loading, error } = useApp();
-    const {id} = useParams();
+  const { apps, loading, error } = useApp();
+  const {id} = useParams();
+  const [showInstall, setShowInstall] = useState(true); 
+   //To find app id
+    const app = apps.find( el => el.id === Number(id));
 
+    useEffect(() =>{
+      if (!app) return;
+      const savedApps = getAppFromLocalStorage();
+      const alreadySaved = savedApps.some( el => el.id === app.id);
+      setShowInstall(!alreadySaved);
+    },[app]);
+
+  const handleAddStorage = () => {
+    if (!app) return <AppsError />;
+    const successfullyInstalled = updateAppList(app);
+    if (successfullyInstalled) setShowInstall(false);
+    };
     if (loading) return <AppDetailsLoad />;
     if (error) return <ErrorPage />;
-
-    //To find app id
-    const app = apps.find( el => el.id === Number(id));
     if (!app) return <AppsError />;
-
+    
     // Get App info by destructuring
-
     const{ image, title, companyName, description, size, reviews, 
          ratingAvg, downloads, ratings } = app || {};
-
-// Local Storage functionality
-  const handleAddStorage = () => {
-
-    const getExistingApp = JSON.parse(localStorage.getItem("appList"));
-    let updatedAppList = [];
- 
-    if (getExistingApp) {
-      //To check data is already in the storage
-      const isDuplicate = getExistingApp.some((item) => item.id === app.id);
-      if (isDuplicate)
-        return toast.error(`Already Installed ${app.title}`, {
-          theme: "dark",
-          position: "bottom-right",
-        });
-      updatedAppList = [...getExistingApp, app];
-    } else {
-      //if no data available
-      updatedAppList.push(app);
-      toast.success(`You've Successfully Installed ${app.title}`, {
-        theme: "dark",
-        position: "bottom-right",
-      });
-    }
-    console.log(updatedAppList);
-    //save data to local storage
-    localStorage.setItem("appList", JSON.stringify(updatedAppList));
-    setShowInstall(false);
-  };
 
   return (
     <div className="w-11/12 mx-auto lg:px-8 md:px-4 px-2">
@@ -74,7 +55,8 @@ const AppDetails = () => {
             <h2 className="lg:text-3xl md:text-2xl font-bold text-[#001931] lg:text-left text-center">
               {title || "No Title Available"}
             </h2>
-            <p className="font-medium text-gray-600 text-lg lg:text-left text-center">
+
+            <p className="text-center font-medium text-gray-600 text-lg lg:text-left">
               Developed By :
               <span className="text-primary font-semibold">
                 {" "}
@@ -151,7 +133,6 @@ const AppDetails = () => {
           
         </div>
       </div>
-      <ToastContainer />
     </div>
 
     );

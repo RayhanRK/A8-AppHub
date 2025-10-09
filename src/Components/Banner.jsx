@@ -81,7 +81,7 @@ const Banner = () => {
               </span>
               <span>+</span>
             </h2>
-            <p>31 more will Launch</p>
+            <p>21 more will Launch</p>
           </div>
         </div>
       </div>

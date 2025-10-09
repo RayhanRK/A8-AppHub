@@ -1,11 +1,76 @@
-import React from 'react';
+import { useState } from "react";
+import useApp from "../Hooks/useApp";
+import NotInstalled from "../Components/NotInstalled";
+import InstalledApp from "../Components/InstalledApp";
+import InstalledSpinner from "../Components/InstalledSpinner";
+
+import { getAppFromLocalStorage } from "../Utility/localStorage";
 
 const Installation = () => {
-    return (
-        <div>
-            Installation page
+  const [installedApps, setInstalledApp] = useState(() =>
+        getAppFromLocalStorage()
+  );
+
+  const [sortBy, setSortBy] = useState("");
+
+  const { loading } = useApp();
+  if (loading) return <InstalledSpinner />;
+
+// search bar App sorting functionality by ascending and descending order
+  const sortedApps = [...installedApps].sort((a, b) => {
+    if (sortBy === "size-asc") return a.size - b.size;
+    if (sortBy === "size-desc") return b.size - a.size;
+    return 0;
+  });
+
+  return (
+    <div className="w-11/12 mx-auto md:space-y-12 md:px-4 lg:space-y-16 lg:px-8 px-2 space-y-8 py-16 ">
+      <div className="space-y-4">
+        <h2 className="lg:text-5xl md:text-4xl text-2xl font-bold text-center text-[#001931]">
+          Your Installed Apps
+        </h2>
+        <p className="text-center md:px-0 px-8">
+          Explore All Apps on the Market developed by us. We code for Millions
+        </p>
+      </div>
+
+      <div className="flex md:flex-row flex-col justify-between items-center gap-4">
+        <h2 className="lg:text-2xl text-lg font-semibold pb-1 border-b text-[#001931]">
+          {sortedApps.length === 0
+            ? "No Apps Installed"
+            : sortedApps.length < 9
+            ? `0${sortedApps.length} Apps Found`
+            : `${sortedApps.length} Apps Found`}
+        </h2>
+        <select
+          className="select select-primary"
+          disabled={sortedApps.length === 0}
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+        >
+          <option disabled value="">
+            Sort By Size
+          </option>
+          <option value="size-asc">Low - High</option>
+          <option value="size-desc">High - Low</option>
+        </select>
+      </div>
+      {sortedApps.length === 0 ? (
+        <NotInstalled />
+      ) : (
+        <div className="grid grid-cols-1 gap-4">
+          {sortedApps.map((insApp) => (
+            <InstalledApp
+              insApp={insApp}
+              key={insApp.id}
+              setInstalledApp={setInstalledApp}
+            />
+          ))}
         </div>
-    );
+      )}
+    </div>
+  );
 };
 
 export default Installation;
+
