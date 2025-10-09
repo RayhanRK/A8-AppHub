@@ -28,4 +28,4 @@ A8-AppHub is a modern web application built with React and Vite, featuring a sle
  https://github.com/RayhanRK/A8-AppHub.git
 
 **Live link:
- (Netlify) :
+ (Netlify) :https://a8-apphub.netlify.app/

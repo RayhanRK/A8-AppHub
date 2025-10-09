@@ -19,7 +19,7 @@ const Footer = () => {
             <br />
             Providing reliable tech since 2022
           </p>
-          <p>Copyright © {new Date().getFullYear()} - All rights reserved</p>
+          <p> © {new Date().getFullYear()} Rayhan Khan- All rights reserved</p>
         </aside>
 
         {/* Horizontal line before nav */}

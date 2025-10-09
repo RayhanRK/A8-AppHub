@@ -1,7 +1,7 @@
 import { Download, House, LayoutPanelLeft } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
-
+import Logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar w-11/12 mx-auto px-0">
@@ -65,8 +65,7 @@ const Navbar = () => {
           <span>
             {/* Nav logo */}
             <img
-              src={"../src/assets/logo.png"}
-              alt="AppHub "
+              src={Logo}         
               className="w-7 md:w-8 lg:w-10 h-auto object-contain"
             />
           </span>
